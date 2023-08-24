@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/facebook-css.css">
+</head>
+<body id="body">
+<div id="wrap">
+    <div id="form-group">
+        <form action="#">
+            <h1 id="head">Регистрация</h1>
+            <h4 id="head2">Быстро и легко.</h4>
+            <hr id="hr">
+            <label for="name" id="label1"></label>
+            <input type="text" id="name" placeholder="Ism">
+            <label for="sourname"></label>
+            <input type="text" id="sourname" placeholder="Familiya">
+            <label for="number"></label>
+            <input type="text" id="number" placeholder="Familiya">
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Familiya">
+            <span id="span">Дата рождения</span>
+            <label for="day"></label>
+            <select name="day" id="day">
+                <option value="1" selected>2023</option>
+                <option value="2" selected>2022</option>
+                <option value="3" selected>2021</option>
+                <option value="4" selected>2020</option>
+                <option value="5" selected>2019</option>
+                <option value="6" selected>2018</option>
+                <option value="7" selected>2017</option>
+            </select>
+            <label for="month"></label>
+            <select name="month" id="month">
+                <option value="1" selected>10</option>
+                <option value="2">2</option>
+                <option value="3"><3/option>
+                <option value="3">3</option>
+                <option value="4">8</option>
+                <option value="5">7</option>
+                <option value="6">6</option>
+            </select>
+            <label for="year"></label>
+            <select name="year" id="year">
+                <option value="1" selected>2023</option>
+                <option value="3">2022</option>
+                <option value="2">2021</option>
+                <option value="4">2020</option>
+            </select>
+            <span id="span2">Пол</span>
+            <div id="pol1">
+                <label for="jenshina">Женщина</label>
+                <input type="radio" name="pol" id="jenshina">
+            </div>
+            <div id="pol2">
+                <label for="mujshina">Мужчина</label>
+                <input type="radio" name="pol" id="mujshina">
+            </div>
+            <div id="pol3">
+                <label for="drugoe">Другое</label>
+                <input type="radio"  name="pol" id="drugoe">
+            </div>
+            <p id="p1">Люди, которые пользуются нашим
+                сервисом, могли загрузить вашу контактную
+                информацию на Facebook. <a href="#" id="a1">Подробнее</a>
+            </p>
+            <p id="p2">Нажимая кнопку "Регистрация",
+                вы принимаете наши <a href="#" id="a2">Условия использования</a>,
+                <a href="#" id="a3">Политику конфиденциальности</a> и
+                <a href="#" id="a4">Политику в отношении файлов cookie</a>.
+                Вы можете получать от нас SMS-уведомления, отказаться от которых
+                можно в любой момент.
+            </p>
+            <button id="submit" type="submit" data-dismiss="form-group">Регистрация</button>
+        </form>
+    </div>
+</div>
+<script src="js/facebook-js.js"></script>
+</body>
+</html>
